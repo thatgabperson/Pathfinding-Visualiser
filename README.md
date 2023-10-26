@@ -5,4 +5,4 @@ Project developed for my A-Level Computer Science coursework (2020-2022)
   <li>Runs on a 1600x900 resolution</li>
 </ul>
 
-[Download](Pathfinding-Visualiser.rar)
+Get the executable [here](Pathfinding_Visualiser.rar)
