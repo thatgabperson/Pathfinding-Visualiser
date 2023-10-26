@@ -364,7 +364,7 @@ class MainScreen:
 		for event in self.eventList:
 			# Quits when close button or escape is pressed
 			if event.type == pg.QUIT:
-				quit()
+				sys.exit()
 
 			elif event.type == pg.USEREVENT:
 				if self.data.run:
@@ -372,7 +372,7 @@ class MainScreen:
 
 			elif event.type == pg.KEYDOWN:
 				if event.key == pg.K_ESCAPE:
-					quit()
+					sys.exit()
 				elif event.key == pg.K_q:
 					self.data.selectedNodeType = "Start"
 					self.guiElements["Node DDL"].setSelected("Start")
